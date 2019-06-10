@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Books</string>
+    <string name="tv_book">Book List</string>
+    <string name="tv_saved_book">Favourite List</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="channel_name">Reminder</string>
+    <string name="channel_description">Remind user to return book</string>
+    <string name="CHANNEL_ID">0</string>
+</resources>

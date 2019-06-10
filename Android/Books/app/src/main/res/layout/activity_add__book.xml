@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_main_background"
+    tools:context=".Add_BookActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/et_book_title"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Title"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/lv_layout"/>
+
+        <EditText
+            android:id="@+id/et_book_author"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Author"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/lv_layout"/>
+
+        <EditText
+            android:id="@+id/et_book_publisher"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Publisher"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/lv_layout"/>
+
+        <EditText
+            android:id="@+id/et_book_category"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Category"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:inputType="textMultiLine"
+            android:background="@drawable/lv_layout" />
+
+        <EditText
+            android:id="@+id/et_book_description"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:ems="10"
+
+            android:hint="Description"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:inputType="textMultiLine"
+            android:background="@drawable/lv_layout" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_Bought"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bought" />
+
+            <CheckBox
+                android:id="@+id/cb_Borrowed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Borrowed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pick_image"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/lv_layout"
+                android:text="Select" />
+
+
+            <Button
+                android:id="@+id/btn_add_book_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/lv_layout"
+                android:text="Confirm" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/lv_layout"
+                android:text="Cancel" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>

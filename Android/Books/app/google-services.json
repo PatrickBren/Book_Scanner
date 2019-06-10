@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "47808465394",
+    "firebase_url": "https://book-scann.firebaseio.com",
+    "project_id": "book-scann",
+    "storage_bucket": "book-scann.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47808465394:android:968d719f5f0d269c",
+        "android_client_info": {
+          "package_name": "com.example.patrick.bookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47808465394-nqvcbcka4od75ti2s9iktum096cm2f9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patrick.bookapp",
+            "certificate_hash": "a4f38ae16c33af591a01bdc06329ea4ac5d6bd6a"
+          }
+        },
+        {
+          "client_id": "47808465394-fb635tcpgi9nd399md4aq1eq7lc3ngo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsV1vgY_-9tLnmamdohT-1eg-DQx8H3V4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47808465394-fb635tcpgi9nd399md4aq1eq7lc3ngo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47808465394:android:f1ac9f016d2633b2",
+        "android_client_info": {
+          "package_name": "com.example.patrick.booklistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47808465394-c1lsda3s7su36odk7rk01vbc1bsh0q0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patrick.booklistapp",
+            "certificate_hash": "a4f38ae16c33af591a01bdc06329ea4ac5d6bd6a"
+          }
+        },
+        {
+          "client_id": "47808465394-fb635tcpgi9nd399md4aq1eq7lc3ngo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsV1vgY_-9tLnmamdohT-1eg-DQx8H3V4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47808465394-fb635tcpgi9nd399md4aq1eq7lc3ngo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47808465394:android:0a3768ee70dda9a0",
+        "android_client_info": {
+          "package_name": "com.example.patrick.books"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47808465394-bamn9op9dacdrmbssivevee4nt4kcnbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patrick.books",
+            "certificate_hash": "a4f38ae16c33af591a01bdc06329ea4ac5d6bd6a"
+          }
+        },
+        {
+          "client_id": "47808465394-fb635tcpgi9nd399md4aq1eq7lc3ngo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsV1vgY_-9tLnmamdohT-1eg-DQx8H3V4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47808465394-fb635tcpgi9nd399md4aq1eq7lc3ngo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
